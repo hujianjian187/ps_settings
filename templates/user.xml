@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="Test temp" value="$DATE$ $TIME$" description="自定义注释模板" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="" defaultValue="DATE()" alwaysStopAt="false" />
+    <variable name="TIME" expression="" defaultValue="TIME()" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

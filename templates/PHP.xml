@@ -1,0 +1,43 @@
+<templateSet group="PHP">
+  <template name="switch" value="switch ($ITERABLE$) {&#10;    case 'value':&#10;        # code...&#10;        break;&#10;    &#10;    default:&#10;        # code...&#10;        break;&#10;}" description="switch代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($ITERABLE$) {&#10;    // if body&#10;}" description="if代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if ($ITERABLE$) {&#10;    // if body&#10;} else {&#10;    // else body;&#10;}" description="if else 代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while ($ITERABLE$) {&#10;    // todo&#10;}" description="while循环代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dowhile" value="do {&#10;    // todo&#10;} while ($ITERABLE$);" description="do while循环代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ($ITERABLE$ = 0; $i &lt; 10; $i++) {&#10;    // todo&#10;}" description="for循环代码块" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;    //code...&#10;} catch (\Throwable $th) {&#10;    //throw $th;&#10;}" description="try代码块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
